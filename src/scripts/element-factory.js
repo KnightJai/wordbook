@@ -1,11 +1,4 @@
-/**
- * ElementFactory - fluent element factory
- *
- * Usage:
- *
- * const el = new ElementFactory('div');
- * el.text('foo').class('green').attribute('data-foo');
- */
+
 class ElementFactory {
   constructor(tag) {
     this.el = document.createElement(tag);

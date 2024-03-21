@@ -1,13 +1,4 @@
-/******************************************************************************
- * select - custom select that can be styled independent of user-agent styles
- *
- * usage:
- *
- *  data-select, add this data attribute to a div surrounding select.
- *  add option elements as usual.  The native select/option will be used
- *  to create the custom select.
- *
- *******************************************************************************/
+
 
 import arrowDown from "../assets/icon-arrow-down.svg";
 import element from "./element-factory";
